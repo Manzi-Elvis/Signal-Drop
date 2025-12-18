@@ -153,7 +153,7 @@ export function ReportEditor({ report, onSave, onCancel, onDelete }: ReportEdito
               placeholder="Write your report here..."
               value={content}
               onChange={(e) => setContent(e.target.value)}
-              className="min-h-[300px] sm:min-h-[400px] lg:min-h-[500px] resize-none font-mono text-xs sm:text-sm leading-relaxed"
+              className="min-h-75 sm:min-h-[400px] lg:min-h-[500px] resize-none font-mono text-xs sm:text-sm leading-relaxed"
             />
           </div>
 
