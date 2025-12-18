@@ -159,7 +159,7 @@ export function ReportEditor({ report, onSave, onCancel, onDelete }: ReportEdito
 
           <div className="flex items-start gap-2 sm:gap-3 p-3 sm:p-4 rounded-lg bg-muted/50 text-[10px] sm:text-xs text-muted-foreground">
             <svg
-              className="w-4 h-4 flex-shrink-0 mt-0.5"
+              className="w-4 h-4 shrink-0 mt-0.5"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
