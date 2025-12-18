@@ -135,7 +135,7 @@ export function DashboardView() {
 
         <aside
           className={cn(
-            "w-full sm:w-80 lg:w-96 xl:w-[28rem] border-r border-border flex flex-col bg-card shrink-0",
+            "w-full sm:w-80 lg:w-96 xl:w-112 border-r border-border flex flex-col bg-card shrink-0",
             "fixed md:relative inset-y-0 left-0 z-50 md:z-auto",
             "transform transition-transform duration-200 ease-in-out md:transform-none",
             showSidebar ? "translate-x-0" : "-translate-x-full md:translate-x-0",
